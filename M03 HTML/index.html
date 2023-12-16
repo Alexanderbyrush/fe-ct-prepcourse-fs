@@ -7,48 +7,64 @@
 </head>
 <body>
 
+    <header>
     <!-- las etiquetas ocupan el 100% Asi no este a la vista por el largo de texto -->
     <h1>Este es el titulo principal de mi pagina web</h1>
 
+    <!-- lA ETIQUETA SPAM SE UTLIZA PARA TEXTOS CORTOS SIN TOMAR EL 100% DEL TEMPLATE-->   
     <hr>
-    <!-- lA ETIQUETA SPAM SE UTLIZA PARA TEXTOS CORTOS SIN TOMAR EL 100% DEL TEMPLATE-->
-    <p>HOME</p>
-    <p>NOTICIAS</p>
-    <p>EL CLIMA</p>    
-    <hr>
-
     <span>HOME</span>
     <span>NOTICIAS</span>
     <span>EL CLIMA</span>
 
     <hr>
+    </header>
 
-    <h2>Este un titulo de una seccion de noticias</h2>
-    <h3>Esta es la noticia Nº1</h3>
-    <p>Este sera el primer parrafo de mi noticia y es una noticia muy importante.</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, totam delectus? A debitis ratione numquam impedit, accusantium, soluta tenetur nam qui maiores fuga obcaecati deserunt amet incidunt perferendis fugiat neque?</p>
+    <main>
+        <section>
+            <h2>Este un titulo de una seccion de noticias</h2>
 
-    <hr />  
-    <!-- Lista de elementos Ordenados (Con index i por llamarle asi Ejm... )  -->
-    <h3>Esta es la noticia Nº2</h3>
-    <p>Este es un listado de cosas importantes para esta noticia</p>
-    <ol>
-        <li>Este es el item 1</li>
-        <li>Este es el item 2</li>
-        <li>Este es el item 3</li>
-    </ol>
+            <article>
+                <h3>Esta es la noticia Nº1</h3>
+        <div>
+            <p>Este sera el primer parrafo de mi noticia y es una noticia muy importante.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, totam delectus? A debitis ratione numquam impedit, accusantium, soluta tenetur nam qui maiores fuga obcaecati deserunt amet incidunt perferendis fugiat neque?</p>        
 
-    <hr />  
+        </div>
+             </article>
+        <hr />  
+        <article>
+        <!-- Lista de elementos Ordenados (Con index i por llamarle asi Ejm... )  -->
+        <h3>Esta es la noticia Nº2</h3>
+        <p>Este es un listado de cosas importantes para esta noticia</p>
+        <ol>
+            <li>Este es el item 1</li>
+            <li>Este es el item 2</li>
+            <li>Este es el item 3</li>
+        </ol>
+    </article>
+        <hr />  
+        <article>
+        <h3>Esta es la noticia nº3</h3>
+        <p>Este listado de cosas importantes no estara ordenado</p>   
+         <!-- lista de elementos no necesariamente ordenadas... en el contenido realmente no tiene orden (index i por llamarle asi... ejm claro)  -->
+        
+        <ul>
+            <li>Este un elemento</li>
+            <li>Este un elemento adicional</li>
+            <li>Este otro elemento adicional</li>
+        </ul>
+    </article>
+    </section>
 
-
-    <h3>Esta es la noticia nº3</h3>
-    <p>Este listado de cosas importantes no estara ordenado</p>   
-     <!-- lista de elementos no necesariamente ordenadas... en el contenido realmente no tiene orden (index i por llamarle asi... ejm claro)  -->
-    
-    <ul>
-        <li>Este un elemento</li>
-        <li>Este un elemento adicional</li>
-        <li>Este otro elemento adicional</li>
-    </ul>
+    </main>
+    <footer>
+        <p>
+            Este es el footer de mi pagina. ahora voy a poner unos enlances
+        </p>
+        <span>Enalce 1</span>
+        <span>Enalce 1</span>
+        <span>Enalce 3</span>
+    </footer>
 </body>
 </html>

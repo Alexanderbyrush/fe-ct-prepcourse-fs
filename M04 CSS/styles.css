@@ -1,0 +1,82 @@
+body {
+    background-color: red;
+}
+
+header {
+    background-color: aqua;
+}
+
+main {
+    background-color: blueviolet;
+    color: white;
+}
+
+footer {
+    background-color: chartreuse;
+}
+
+
+h4 {
+    background-color: black;
+    color: white;
+}
+
+.title {
+    font-size: 3em;
+    color: crimson;
+}
+
+.cards {
+    border: 2px solid black;
+    /* fit-Contet Ajusto mi ancho al ancho de mi contenido  */
+    width: fit-content;
+    padding: 1em 1em 2em 1em;
+    border-radius: 10%;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+}
+
+/* hover Al pausar Mi mouse Cambio el color de los cards*/
+
+/* Seudo selector Ejem class(id) - name - :*SeudoSelector* 
+                        .          cards  :hover
+*/
+
+.cards:hover {
+    background-color: rgba(184, 135, 11, 0.794);
+}
+
+#principal {
+    font-size: 4.5em;
+}
+
+#titulos {
+    /* viewport width the Porcent of the display*/
+    width: 65vw;
+    margin: auto;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.logo {
+    width: 300px;
+}
+
+#cards-container {
+    background-color: aqua;
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 5px solid rgb(142, 128, 128);
+    border-radius: 5px;
+    padding: 2em;
+    /* Un Contenedo de tipo flex posiciona a sus elementos en una fila (Tambien se puede cambiar su comportamiento)*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

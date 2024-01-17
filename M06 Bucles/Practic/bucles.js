@@ -1,4 +1,4 @@
-var suma = 0
+// var suma = 0
 
 // suma = suma +1;
 // suma = suma +2;
@@ -13,7 +13,18 @@ var suma = 0
 // }
 // console.log('variable Suma', suma);
 
-while (suma < 3) {
-    suma = suma + 1
-    console.log(suma);
+// while (suma < 3) {
+//     suma = suma + 1
+//     console.log(suma);
+// }
+
+
+let contador = 0;
+
+while (contador < 5) {
+  console.log(contador);
+  contador++;
 }
+
+
+
